@@ -14,12 +14,12 @@ import java.util.Set;
 @Profile({"default","map"})
 public class OwnerMapService extends AbstractMapService<Owner, Long> implements OwnerService {
 
-    private final PetService petService;
     private final PetTypeService petTypeService;
+    private final PetService petService;
 
-    public OwnerMapService(PetService petService, PetTypeService petTypeService) {
-        this.petService = petService;
+    public OwnerMapService(PetTypeService petTypeService, PetService petService) {
         this.petTypeService = petTypeService;
+        this.petService = petService;
     }
 
     @Override
