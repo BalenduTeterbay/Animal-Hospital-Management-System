@@ -3,3 +3,7 @@
 # sfg-pet-clinic
 
 SFG Pet Clinic
+
+# License
+This Web Application is licensed under MIT License.
+
