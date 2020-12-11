@@ -71,7 +71,6 @@ class VisitControllerTest {
                                         .name("Dog").build())
                                 .build()
                 );
-
         uriVariables.clear();
         uriVariables.put("ownerId", ownerId.toString());
         uriVariables.put("petId", petId.toString());
